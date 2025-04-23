@@ -1,42 +1,55 @@
-import { readFile } from "node:fs/promises";
+// import { readFile } from "node:fs/promises"; 
 import readline from "node:readline";
 import { config } from "dotenv";
-import { OpenAIEmbeddings } from "@langchain/openai";
-import { Document } from "@langchain/core/documents";
-import { MemoryVectorStore } from "langchain/vectorstores/memory";
+// import { OpenAIEmbeddings } from "@langchain/openai"; 
+// import { Document } from "@langchain/core/documents"; 
+import { createClient } from '@supabase/supabase-js';
 
 config();
 
-const news = JSON.parse(await readFile("news.json", "utf-8"));
+const supabaseUrl = process.env.SUPABASE_URL;
+const supabaseKey = process.env.SUPABASE_API_KEY;
+const supabase = createClient(supabaseUrl, supabaseKey);
 
-function createStore(news) {
-  const embeddings = new OpenAIEmbeddings();
-  return MemoryVectorStore.fromDocuments(
-    news.map(
-      (article) =>
-        new Document({
-          pageContent: `Headline: ${article.headline}
-                Content: ${article.content}
-                Category: ${article.category}
-                Source: ${article.source}
-                Date: ${article.date}
-                `,
-          metadata: {
-            sourceId: article.newsId,
-          },
-        })
-    ),
-    embeddings
-  );
-}
+// const news = JSON.parse(await readFile("news.json", "utf-8"));
 
-const store = await createStore(news);
+// async function createStore() {
+//   const { data, error } = await supabase
+//     .from('news')
+//     .upsert(
+//       news.map(
+//         (item) => ({
+//           news_id: item.newsId,
+//           headline: item.headline,
+//           content: item.content,
+//           category: item.category,
+//           source: item.source,
+//           date: item.date,
+//         })
+//       )
+//     );
+
+//   if (error) {
+//     console.error("Insert error:", error);
+//   }
+
+//   return data;
+// }
+
+// const store = await createStore(); 
 
 async function searchNews(query, count = 1) {
-  const results = await store.similaritySearch(query, count);
-  return results.map((result) =>
-    news.find((n) => n.newsId === result.metadata.sourceId)
-  );
+  const { data, error } = await supabase
+    .from('news')
+    .select()
+    .ilike('headline', `%${query}%`)
+    .limit(count);
+
+  if (error) {
+    console.error("Search error:", error);
+  }
+
+  return data;
 }
 
 async function searchLoop() {
@@ -66,6 +79,7 @@ async function searchLoop() {
       });
     }
   }
+
   rl.close();
 }
 
