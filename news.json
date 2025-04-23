@@ -1,0 +1,322 @@
+[
+  {
+    "newsId": "n1",
+    "headline": "Tech Giants Lead the Charge in AI Development",
+    "content": "The biggest tech companies are now focusing heavily on artificial intelligence, pushing the boundaries of innovation...",
+    "category": "Technology",
+    "source": "TechNews Daily",
+    "date": "2025-04-20"
+  },
+  {
+    "newsId": "n2",
+    "headline": "Global Warming Continues to Accelerate",
+    "content": "The latest climate models show that global warming is advancing faster than predicted, with severe consequences for the planet...",
+    "category": "Environment",
+    "source": "Global Earth Report",
+    "date": "2025-04-21"
+  },
+  {
+    "newsId": "n3",
+    "headline": "New Medical Breakthrough in Cancer Treatment",
+    "content": "Scientists have discovered a promising new approach to treating aggressive forms of cancer using targeted immunotherapy...",
+    "category": "Health",
+    "source": "Medical Science Today",
+    "date": "2025-04-19"
+  },
+  {
+    "newsId": "n4",
+    "headline": "Stock Markets Hit Record High",
+    "content": "Global stock markets reached unprecedented levels yesterday as investor confidence grows despite economic challenges...",
+    "category": "Finance",
+    "source": "Financial Times",
+    "date": "2025-04-22"
+  },
+  {
+    "newsId": "n5",
+    "headline": "Space Tourism Becomes Reality for Middle Class",
+    "content": "With prices dropping significantly, space tourism companies are now targeting middle-class consumers for orbital experiences...",
+    "category": "Space",
+    "source": "Cosmic Journeys",
+    "date": "2025-04-18"
+  },
+  {
+    "newsId": "n6",
+    "headline": "Major Sports League Announces Expansion",
+    "content": "The professional basketball association announced plans to add three new teams in emerging markets over the next five years...",
+    "category": "Sports",
+    "source": "Sports Network",
+    "date": "2025-04-17"
+  },
+  {
+    "newsId": "n7",
+    "headline": "Renewable Energy Surpasses Fossil Fuels in Europe",
+    "content": "For the first time in history, renewable energy sources have generated more electricity than fossil fuels across European nations...",
+    "category": "Energy",
+    "source": "European Energy Review",
+    "date": "2025-04-16"
+  },
+  {
+    "newsId": "n8",
+    "headline": "Virtual Reality Education Programs Show Promising Results",
+    "content": "Schools implementing VR-based learning report significant improvements in student engagement and knowledge retention...",
+    "category": "Education",
+    "source": "Education Innovation",
+    "date": "2025-04-15"
+  },
+  {
+    "newsId": "n9",
+    "headline": "New Archaeological Discovery Rewrites Ancient History",
+    "content": "Archaeologists have unearthed artifacts that suggest advanced civilizations existed thousands of years earlier than previously thought...",
+    "category": "Archaeology",
+    "source": "Historical Sciences",
+    "date": "2025-04-14"
+  },
+  {
+    "newsId": "n10",
+    "headline": "Major Cybersecurity Attack Affects Millions",
+    "content": "A sophisticated cyber attack has compromised personal data of millions of users across multiple online platforms...",
+    "category": "Cybersecurity",
+    "source": "Digital Defense Report",
+    "date": "2025-04-22"
+  },
+  {
+    "newsId": "n11",
+    "headline": "Breakthrough in Quantum Computing Achieves Quantum Supremacy",
+    "content": "Scientists have created a quantum computer that solved problems impossible for conventional supercomputers in record time...",
+    "category": "Technology",
+    "source": "Quantum Science Journal",
+    "date": "2025-04-21"
+  },
+  {
+    "newsId": "n12",
+    "headline": "Global Peace Initiative Launched by World Leaders",
+    "content": "Representatives from 50 nations have signed a comprehensive peace accord aimed at resolving longstanding conflicts...",
+    "category": "Politics",
+    "source": "International Affairs",
+    "date": "2025-04-20"
+  },
+  {
+    "newsId": "n13",
+    "headline": "Record-Breaking Heat Wave Sweeps Across Continents",
+    "content": "Multiple countries are experiencing unprecedented temperatures, raising concerns about climate change acceleration...",
+    "category": "Weather",
+    "source": "Climate Monitor",
+    "date": "2025-04-19"
+  },
+  {
+    "newsId": "n14",
+    "headline": "Revolutionary Battery Technology Extends Electric Vehicle Range",
+    "content": "A new battery design promises to double the range of electric vehicles while reducing charging time by 70 percent...",
+    "category": "Automotive",
+    "source": "EV Technology Review",
+    "date": "2025-04-18"
+  },
+  {
+    "newsId": "n15",
+    "headline": "Artificial Intelligence Creates Award-Winning Symphony",
+    "content": "An AI-composed classical piece has won a prestigious music award, sparking debate about creativity and technology...",
+    "category": "Arts",
+    "source": "Cultural Innovations",
+    "date": "2025-04-17"
+  },
+  {
+    "newsId": "n16",
+    "headline": "Sustainable Fashion Brands Dominate Global Market",
+    "content": "Eco-friendly fashion companies are outperforming traditional brands as consumer preferences shift toward sustainability...",
+    "category": "Fashion",
+    "source": "Style & Sustainability",
+    "date": "2025-04-16"
+  },
+  {
+    "newsId": "n17",
+    "headline": "Universal Basic Income Trial Shows Positive Economic Impact",
+    "content": "A five-year study of UBI implementation reveals significant benefits for community health, entrepreneurship, and education...",
+    "category": "Economics",
+    "source": "Social Policy Review",
+    "date": "2025-04-15"
+  },
+  {
+    "newsId": "n18",
+    "headline": "Major Breakthrough in Alzheimer's Treatment",
+    "content": "Clinical trials show promising results for a new drug that significantly slows cognitive decline in Alzheimer's patients...",
+    "category": "Health",
+    "source": "Neurological Research Today",
+    "date": "2025-04-14"
+  },
+  {
+    "newsId": "n19",
+    "headline": "First Successful Mars Colony Simulation Completed",
+    "content": "After three years in isolation, the Mars habitat simulation team has successfully demonstrated long-term sustainable living...",
+    "category": "Space",
+    "source": "Interplanetary Research",
+    "date": "2025-04-13"
+  },
+  {
+    "newsId": "n20",
+    "headline": "Global Digital Currency Framework Announced",
+    "content": "Major financial institutions have agreed on standardized protocols for digital currencies, paving way for widespread adoption...",
+    "category": "Finance",
+    "source": "Digital Economy News",
+    "date": "2025-04-22"
+  },
+  {
+    "newsId": "n21",
+    "headline": "Record Numbers Participate in Global Climate Protests",
+    "content": "Millions of people across 150 countries joined synchronized demonstrations demanding immediate climate action...",
+    "category": "Environment",
+    "source": "Climate Action Network",
+    "date": "2025-04-21"
+  },
+  {
+    "newsId": "n22",
+    "headline": "Breakthrough in Nuclear Fusion Energy Generation",
+    "content": "Scientists achieve sustainable fusion reaction generating more energy than consumed, marking a milestone in clean power...",
+    "category": "Energy",
+    "source": "Power Innovation Journal",
+    "date": "2025-04-20"
+  },
+  {
+    "newsId": "n23",
+    "headline": "World Cup Final Draws Record Global Viewership",
+    "content": "The international football championship final became the most-watched sporting event in history with over 4 billion viewers...",
+    "category": "Sports",
+    "source": "Global Sports Monitor",
+    "date": "2025-04-19"
+  },
+  {
+    "newsId": "n24",
+    "headline": "New Biodegradable Plastic Alternative Goes Mainstream",
+    "content": "Major corporations adopt plant-based packaging that completely decomposes within 30 days of disposal...",
+    "category": "Environment",
+    "source": "Sustainable Solutions",
+    "date": "2025-04-18"
+  },
+  {
+    "newsId": "n25",
+    "headline": "Autonomous Vehicle Network Launches in Major City",
+    "content": "The first fully autonomous public transportation system has begun operation, featuring self-driving buses and taxis...",
+    "category": "Transportation",
+    "source": "Urban Mobility Report",
+    "date": "2025-04-17"
+  },
+  {
+    "newsId": "n26",
+    "headline": "Interactive Holographic Technology Revolutionizes Remote Work",
+    "content": "New holographic meeting spaces allow remote workers to interact as if physically present in the same room...",
+    "category": "Technology",
+    "source": "Future Workplace",
+    "date": "2025-04-16"
+  },
+  {
+    "newsId": "n27",
+    "headline": "Major Discovery in Deep Sea Ecosystem",
+    "content": "Marine biologists have discovered hundreds of previously unknown species in unexplored ocean trenches...",
+    "category": "Science",
+    "source": "Oceanic Research Bulletin",
+    "date": "2025-04-15"
+  },
+  {
+    "newsId": "n28",
+    "headline": "Global Literacy Rates Reach Historic High",
+    "content": "International education initiatives have pushed worldwide literacy rates above 90% for the first time in history...",
+    "category": "Education",
+    "source": "Global Development Review",
+    "date": "2025-04-14"
+  },
+  {
+    "newsId": "n29",
+    "headline": "Ancient Epic Poem Translated for First Time",
+    "content": "Linguists have decoded a 3,000-year-old epic poem that provides new insights into ancient civilizations...",
+    "category": "Literature",
+    "source": "Historical Arts Review",
+    "date": "2025-04-13"
+  },
+  {
+    "newsId": "n30",
+    "headline": "Vertical Farming Revolution Transforms Urban Agriculture",
+    "content": "Skyscraper farms in major cities are now producing enough food to supply significant portions of urban populations...",
+    "category": "Agriculture",
+    "source": "Future Farming Today",
+    "date": "2025-04-12"
+  },
+  {
+    "newsId": "n31",
+    "headline": "New Treatment Eliminates Food Allergies in Clinical Trial",
+    "content": "Innovative immunotherapy shows 95% success rate in eliminating severe peanut and shellfish allergies permanently...",
+    "category": "Health",
+    "source": "Medical Breakthroughs",
+    "date": "2025-04-22"
+  },
+  {
+    "newsId": "n32",
+    "headline": "Massive Reforestation Project Completes First Phase",
+    "content": "The global tree-planting initiative has successfully planted over one billion trees across five continents...",
+    "category": "Environment",
+    "source": "Conservation Today",
+    "date": "2025-04-21"
+  },
+  {
+    "newsId": "n33",
+    "headline": "Augmented Reality Shopping Transforms Retail Experience",
+    "content": "New AR shopping applications allow consumers to virtually try products before purchasing, reducing returns by 60%...",
+    "category": "Retail",
+    "source": "Consumer Tech Review",
+    "date": "2025-04-20"
+  },
+  {
+    "newsId": "n34",
+    "headline": "Historic Peace Agreement Ends Decades-Long Conflict",
+    "content": "After years of negotiations, two longtime adversary nations have signed a comprehensive peace treaty...",
+    "category": "Politics",
+    "source": "World Peace Monitor",
+    "date": "2025-04-19"
+  },
+  {
+    "newsId": "n35",
+    "headline": "Brain-Computer Interface Helps Paralyzed Patients Walk Again",
+    "content": "Groundbreaking neural technology allows people with spinal cord injuries to control exoskeletons with their thoughts...",
+    "category": "Medicine",
+    "source": "Neural Science Journal",
+    "date": "2025-04-18"
+  },
+  {
+    "newsId": "n36",
+    "headline": "Record-Breaking Space Telescope Reveals New Exoplanets",
+    "content": "The next-generation orbital telescope has identified dozens of potentially habitable planets in nearby star systems...",
+    "category": "Astronomy",
+    "source": "Cosmic Observer",
+    "date": "2025-04-17"
+  },
+  {
+    "newsId": "n37",
+    "headline": "Underwater City Project Begins Construction",
+    "content": "Engineers have started building the world's first permanent underwater research habitat and tourism destination...",
+    "category": "Architecture",
+    "source": "Future Habitats",
+    "date": "2025-04-16"
+  },
+  {
+    "newsId": "n38",
+    "headline": "Global Music Festival Unites Artists from 100 Countries",
+    "content": "The unprecedented virtual and in-person music event featured performances from musicians representing every continent...",
+    "category": "Entertainment",
+    "source": "Global Arts Review",
+    "date": "2025-04-15"
+  },
+  {
+    "newsId": "n39",
+    "headline": "Revolutionary Water Purification System Deployed Globally",
+    "content": "A low-cost, solar-powered water purification device is bringing clean drinking water to remote regions worldwide...",
+    "category": "Technology",
+    "source": "Humanitarian Tech",
+    "date": "2025-04-14"
+  },
+  {
+    "newsId": "n40",
+    "headline": "Historic Preservation Technology Saves Ancient Monuments",
+    "content": "New nano-materials are being used to preserve deteriorating historical monuments and archaeological sites around the world...",
+    "category": "Culture",
+    "source": "Heritage Conservation Review",
+    "date": "2025-04-13"
+  }
+]

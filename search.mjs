@@ -7,20 +7,22 @@ import { MemoryVectorStore } from "langchain/vectorstores/memory";
 
 config();
 
-const products = JSON.parse(await readFile("products.json", "utf-8"));
+const news = JSON.parse(await readFile("news.json", "utf-8"));
 
-function createStore(products) {
+function createStore(news) {
   const embeddings = new OpenAIEmbeddings();
   return MemoryVectorStore.fromDocuments(
-    products.map(
-      (product) =>
+    news.map(
+      (article) =>
         new Document({
-          pageContent: `Title: ${product.title}
-                Description: ${product.description}
-                Price: ${product.price}
+          pageContent: `Headline: ${article.headline}
+                Content: ${article.content}
+                Category: ${article.category}
+                Source: ${article.source}
+                Date: ${article.date}
                 `,
           metadata: {
-            sourceId: product.id,
+            sourceId: article.newsId,
           },
         })
     ),
@@ -28,12 +30,12 @@ function createStore(products) {
   );
 }
 
-const store = await createStore(products);
+const store = await createStore(news);
 
-async function searchProducts(query, count = 1) {
+async function searchNews(query, count = 1) {
   const results = await store.similaritySearch(query, count);
   return results.map((result) =>
-    products.find((p) => p.id === result.metadata.sourceId)
+    news.find((n) => n.newsId === result.metadata.sourceId)
   );
 }
 
@@ -54,13 +56,13 @@ async function searchLoop() {
       break;
     }
 
-    const results = await searchProducts(query, 3);
+    const results = await searchNews(query, 3);
     if (results.length === 0) {
       console.log("No results found.");
     } else {
       console.log("Results:");
       results.forEach((result) => {
-        console.log(`- ${result.name} (${result.price})`);
+        console.log(`- ${result.headline} [${result.category}] – Source: ${result.source}`);
       });
     }
   }
